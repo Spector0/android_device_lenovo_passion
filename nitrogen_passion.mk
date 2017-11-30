@@ -16,7 +16,7 @@
 $(call inherit-product, device/lenovo/passion/full_passion.mk)
 
 # Inherit some common Nitrogen stuff.
-$(call inherit-product, vendor/nitrogen/config/common_full_phone.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
