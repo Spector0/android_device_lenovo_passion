@@ -15,8 +15,8 @@
 # Inherit device configuration
 $(call inherit-product, device/lenovo/passion/full_passion.mk)
 
-# Inherit some common dotOS stuff.
-$(call inherit-product, vendor/dot/config/common_full_phone.mk)
+# Inherit some common Nitrogen stuff.
+$(call inherit-product, vendor/nitrogen/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -24,7 +24,7 @@ TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := passion
-PRODUCT_NAME := dot_passion
+PRODUCT_NAME := nitrogen_passion
 PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_RELEASE_NAME := passion
