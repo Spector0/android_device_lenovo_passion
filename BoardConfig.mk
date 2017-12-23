@@ -140,10 +140,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_SUPPRESS_EMMC_WIPE := true
 
-# SELinux
-BOARD_SEPOLICY_DIRS += device/lenovo/passion/sepolicy
-include device/qcom/sepolicy/sepolicy.mk
-
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
