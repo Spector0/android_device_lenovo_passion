@@ -179,7 +179,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">65</integer>
+    <!-- integer name="config_deviceHardwareWakeKeys">65</integer -->
 
     <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
     <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
@@ -281,7 +281,7 @@
     <bool name="config_enableAutoPowerModes">true</bool>
  
     <!-- Support in Surfaceflinger for blur layers. NOTE: This requires additional hardware-specific code.-->
-    <bool name="config_uiBlurEnabled">true</bool>
+    <!-- bool name="config_uiBlurEnabled">true</bool -->
  
     <!-- Default LED on time for notification LED in milliseconds. -->
     <integer name="config_defaultNotificationLedOn">500</integer>
