@@ -1,2 +1,2 @@
-add_lunch_combo nitrogen_passion-eng
-add_lunch_combo nitrogen_passion-userdebug
+add_lunch_combo du_passion-eng
+add_lunch_combo du_passion-userdebug
